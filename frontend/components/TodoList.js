@@ -6,6 +6,7 @@ export default class TodoList extends React.Component {
     showAll: true
   }
 
+  // eslint-disable-next-line no-unused-vars
   toggleShowAll = evt => {
     this.setState({
       ...this.state,
